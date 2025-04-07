@@ -62,6 +62,26 @@ mcpで設定を検索して以下をsetting.jsonに設定。パスは適宜変�
 
 で検証。東京の天気は調べられないので要注意。
 
+## 動作確認
+詳しくは、[TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)のClientの実装を参照。
+
+```
+node build/index.js
+```
+でサーバーを起動。
+
+```
+node .\build\client.js
+```
+でクライアントを起動して実行。
+
+クライアントは検証したいコードに合わせて書き換え、その後、
+```
+npx txc
+```
+でビルドして再度クライアントを実行する
+
+
 ## 参考
 - [MCPのQuickStart](https://modelcontextprotocol.io/quickstart/server)
 - [VSCodeのMCP設定](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
