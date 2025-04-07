@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "bin": {
+    "weather": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "name": "mpc-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "npx tsc"
+  },
+  "author": "sifue",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  }
+}
