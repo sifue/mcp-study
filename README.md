@@ -4,7 +4,7 @@
 Node.jsのバージョンは16以上を使用すること。
 
 ```
-npx txc
+npx tsc
 ```
 
 でビルド。Macは実行権限をつける。 `chmod 755 build/index.js`
