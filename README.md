@@ -4,6 +4,7 @@
 Node.jsのバージョンは16以上を使用すること。
 
 ```
+npm install
 npx tsc
 ```
 
